@@ -1,0 +1,563 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Source+Serif+Pro:wght@300;400&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+} 
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Source Serif Pro', serif;
+    background-color: #191919;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    /* position: fixed; */
+    margin-top: 10px;
+}
+
+li {
+    list-style: none;
+    /* color: #fff; */
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
+
+.designIcon img{
+    max-width: 20%;
+    max-height: 15%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px;
+    color: #fff
+}
+
+.search-icon {
+    color: #fff;
+    margin-right: 20px;
+    font-size: 20px ;
+}
+.menu-toggle {
+    /* position: fixed; */
+    right: 15px;
+    top: 12px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    color: #fffeff;
+    line-height: 50px;
+    z-index: 9999;
+}
+
+.menu-toggle:focus,
+.menu-toggle:hover{
+    color: #fffeff;
+}
+
+.menu-toggle:hover {
+    background-color: #343440;
+}
+
+
+                                        /* HERO SECTION */
+
+hero-section {
+    display: block;
+    margin-top: 100px;
+
+}
+
+.home-page {
+    display: flex;
+    justify-content: space-around;
+    width: 100%; 
+    max-height: 140%; 
+    padding: 20px 10px;
+    margin-top: 30px;
+
+}
+
+.column-left img{
+    max-width:80%;
+    height: 100%;
+    border-radius: 50px;
+    margin-left: 30px;
+}
+
+.title-content{
+    color: #fff;
+    display: block;
+    height: 140%;
+}
+.movie-tittle {
+    font-size: 30px;
+}
+
+p{
+    margin-top: 50px;
+    font-size: small;
+ 
+}
+
+.movie-brief {
+    display: block;
+    margin-top: 20px;
+    line-height: 15px;
+}
+
+.genre {
+    font-size: small;
+}
+
+.duration {
+    font-size: small;
+}
+
+
+.rating {
+    font-size: small;
+}
+
+.trailers-segment {
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.trailer{
+    color: #fff;
+    
+}
+
+.trailers-segment{
+    padding: 10px 20px;
+}
+
+.cards img {
+    max-width:  250px;
+    max-height: 150px;
+    border-radius: 20px;
+    justify-content: space-around;
+    margin-top: 20px;
+
+}
+
+.trailer-note {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.trailer{
+    color: #fff;
+}
+
+
+                                                       /* LATEST MOVIES  */
+
+
+.latest-container {
+    height: 150%;
+    max-width: 100%;
+    padding: 10px 20px;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 70px;
+}
+
+.view-more {
+    color: yellow;
+    margin-right: 20px;
+    font-size: large;  
+}
+
+.view-more a {
+    text-decoration: none;
+}
+
+.latest-wrapper{
+    display: block;
+    width: 100%;
+}
+.latest-card{
+    display: block;
+    width: 80px;
+    height: 100%;
+}
+
+.latest-up{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2px;
+}
+
+.sleepless {
+    width: 500px;
+    height: 350px;
+    border-radius: 20px;
+
+}
+
+.black-panter {
+    width: 300px;
+    height: 350px;
+    border-radius: 20px;
+    margin-left: 20px;   
+}
+
+.latest-wrapper.latest-under {
+    max-width: 1m 50px;
+    max-height: 90px;
+    border-radius: 20px;
+    margin-right:  40px;
+}
+
+.num1{
+    width: 300px;
+    height: 360px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-top: 20px; 
+}
+
+
+.num2{
+    width: 300px;
+    height: 360px;
+    border-radius: 20px;
+    margin-left: 5px;
+    margin-top: 20px; 
+}
+
+
+.num3{
+    width: 300px;
+    height: 360px;
+    border-radius: 20px;
+    margin-left: 5px;
+    margin-top: 20px; 
+}
+
+                                                     /* LATEST MOVIES   ENDED*/
+
+                                                     /* LOP MOVIES   STARTED*/
+
+.top-container {
+height: 150%;
+max-width: 100%;
+padding: 10px 20px;
+align-items: center;
+margin-left: 100px;
+margin-top: 70px;
+}
+
+.view-more {
+    color: yellow;
+    margin-right: 20px;
+    font-size: large;  
+}
+
+.view-more a {
+    text-decoration: none;
+}
+
+.top-wrapper{
+    display: block;
+    width: 100%;
+}
+.top-card{
+    display: block;
+    width: 80px;
+    height: 100%;
+}
+
+.top-up{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2px;
+}
+
+.sleepless {
+    width: 500px;
+    height: 350px;
+    border-radius: 20px;
+
+}
+
+.black-panter {
+    width: 300px;
+    height: 350px;
+    border-radius: 20px;
+    margin-left: 20px;   
+}
+
+.top.top-under {
+    max-width: 1m 50px;
+    max-height: 90px;
+    border-radius: 20px;
+    margin-right:  40px;
+}
+
+.num1{
+    width: 300px;
+    height: 360px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-top: 20px; 
+}
+
+
+.num2{
+    width: 300px;
+    height: 360px;
+    border-radius: 20px;
+    margin-left: 5px;
+    margin-top: 20px; 
+}
+
+
+.num3{
+    width: 300px;
+    height: 360px;
+    border-radius: 20px;
+    margin-left: 5px;
+    margin-top: 20px; 
+}
+                                                    /* LOP MOVIES   ENDED*/
+                                                    
+                                                    
+                                                      /* TV SHOW STARTED  */
+
+.tvshow-container {
+    height: 150%;
+    max-width: 100%;
+    padding: 10px 20px;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 70px;
+}
+
+.view-more {
+    color: yellow;
+    margin-right: 20px;
+    font-size: large;  
+}
+
+.view-more a {
+    text-decoration: none;
+}
+
+.tvshow-wrapper{
+    display: block;
+    width: 100%;
+}
+.tvshow-card{
+    display: block;
+    width: 80px;
+    height: 100%;
+}
+
+.tvshow-up{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2px;
+}
+
+.sleepless {
+    width: 500px;
+    height: 350px;
+    border-radius: 20px;
+
+}
+
+.black-panter {
+    width: 300px;
+    height: 350px;
+    border-radius: 20px;
+    margin-left: 20px;   
+}
+
+.tvshow-wrapper.tvshow-under {
+    max-width: 1m 50px;
+    max-height: 90px;
+    border-radius: 20px;
+    margin-right:  40px;
+}
+
+.num1{
+    width: 300px;
+    height: 360px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-top: 20px; 
+}
+
+
+.num2{
+    width: 300px;
+    height: 360px;
+    border-radius: 20px;
+    margin-left: 5px;
+    margin-top: 20px; 
+}
+
+
+.num3{
+    width: 300px;
+    height: 360px;
+    border-radius: 20px;
+    margin-left: 5px;
+    margin-top: 20px; 
+}
+                                            /* TV SHOW   ENDED*/
+                                                    
+
+                                                         /* GOT STARTED*/
+
+.got-section{
+    width: 100%;
+    height: 100%;
+    background-color: #343440;
+    padding: 10px;
+    margin-top: 2px;
+}
+
+.got-main img{
+    max-width:80%;
+    height: 90%;
+    border-radius: 10px;
+    margin-right: 80px;
+    margin-bottom: 5px;
+    margin-top: 30px;
+}
+
+.got-cards{
+    margin-left: 100px;
+    margin-top: 5px;
+}
+.got-cards img {
+    max-width:  300px;
+    max-height: 120px;
+    border-radius: 20px;
+    justify-content: space-around;
+    margin-top: -2px;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+
+                                                    /* GOT   ENDED*/
+
+                                                    /* FOOTER  ENDED*/
+.footer-container {
+    width: 100%;
+    height: 80%;
+    background-color:rgb(60, 64, 67);
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.flixia-container {
+    background-color: rgb(60, 64, 67);
+    max-width: 60%;
+    max-height: 100%;
+    margin-left: 20px;
+}
+
+.flixia-container img{
+    margin-top: 20px;
+    max-width: 50%;
+    max-height: 15%;
+    text-align: center;
+    margin-left: 30px;  
+}
+
+.flixia-container p {
+    color: white;
+    margin-left: 30px;
+}
+
+.form input{
+    margin-left: 30px;
+    margin-top: 50px;
+    width: 40%;
+    border: 1px solid #dedede;
+    padding: px 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    border-radius: 2px;
+    background: #fff;
+    font-size: larger;
+}
+
+#email{
+    font-size: small;
+}
+
+.form button{
+    border: 1px solid #dedede;
+    padding: px 5px;
+    border-radius: 2px;
+    background: rgb(247, 196, 102);
+    font-weight: bold;
+    font-size: large;
+    text-transform: uppercase;
+    letter-spacing: -0.02em;
+    color: black;
+}
+
+#btn {
+    font-size: small;
+}
+.contact-container {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(60, 64, 67);
+    color: #fff;
+    display: block;
+}
+
+.wrapper{
+    display: block;
+    margin-top: 20px;
+}
+
+.rows {
+    display: flex;
+    justify-content: space-around;
+}
+
+.rows.first-row.ul li {
+    line-height: 80cm;
+}
+
+.Contact {
+    justify-content: space-between;
+    display: flex;
+    margin: 20px;
+    margin-left: 30px;
+    margin-top: 150px;
+
+}
+
+span {
+    text-transform: lowercase;
+    color: rgb(247, 196, 102);
+}
